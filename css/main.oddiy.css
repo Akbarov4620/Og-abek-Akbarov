@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #071330;
+}
+
+.main-header__inner{
+    height: 70px;
+    width: 1200px;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.size-12px{
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.size-15px{
+    font-size: 15px;
+}
+
+.size-18px{
+    font-size: 18px;
+    line-height: 32px; 
+}
+
+.size-20px{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.btn{
+    width: 152px;
+    height: 40px;
+    background: #3D55F9;
+    border-radius: 12px;
+    padding: 10px 20px ;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover{
+    background: #273AB8;
+}
+
+.btn:active{
+    background: #4B57A9;
+}
+
+.btn-primary{
+    width: 172px;
+    height: 56px;
+    padding: 18px 30px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+.white{
+    color: #fff;
+}
+
+.blue{
+    color: #3D55F9;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.orange{
+    font-size: 27px;
+    line-height: 56px;
+    text-align: center;
+    color: #F0BCA3;
+
+}
+
+.opacity{
+    color: rgba(7, 19, 48, 0.6);
+}
+
+.heading{
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+}
+
+.heading-blue{
+    font-size: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+.main-header__inner{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+    margin-right: 564px;
+    margin-left: 64px;
+}
+
+.header-list li:hover{
+    border-bottom: 1px solid #000000;
+}
+
+.header-list li:focus{
+    border-bottom: 1px solid #000000;
+}
+
+.header-list li:active{
+    border-bottom: 1px solid #000000;
+    opacity: 0.6;
+}
+
+/*HERO-SECTION*/
+.hero-section{
+    display: flex;
+}
+
+.hero-section__text{
+    margin: 0;
+    margin-top: 195px;
+    width: 460px;
+}
+
+.hero-section__text p{
+    margin: 81px 0 24px 0;
+}
+
+.hero-section__image{
+    margin-top: 84px;
+}
+
+/*treatments-section*/
+.treatments-section{
+    display: flex;
+}
+
+.treatments-section-text{
+    width: 460px;
+}
+
+.treatments-section-text span{
+    margin-top: 300px;
+}
+
+.treatments-section-text p{
+    margin-top: 20px;
+}
+
+.treatments-section-image{
+    margin-top: 234px;
+}
+
+.revarse{
+    flex-direction: row-reverse;
+}
+
+.treatments-section__mini{
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+.treatments-section__mini img {
+    margin: 0;
+}
+
+.treatments-section__mini p{
+    margin: 0;
+    margin-left: 25px;
+}
+
+/*biohacking-section*/
+.biohacking-section__inner{
+    display: flex;
+}
+
+.biohacking-section h2{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 420px;
+    margin-bottom: 66px;
+    width: 730px;
+}
+
+.biohacking-section-text{
+    margin: 0;
+    margin-top: 100px;
+    width: 535px;
+}
+
+.blue-circle{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #3D55F9;
+    border-radius: 50%;
+    padding: 13px 24px;
+}
+
+.biohacking-section-text h3{
+    margin: 24px 0;
+}
+
+.biohacking-section-image{
+    margin: 0;
+    margin-left: 260px;
+}
+
+/*officer-section*/
+.officer-section{
+    width: 693px;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+.officer-section__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+}
+
+.officer-section___image{
+    margin: 0;
+    margin-right: 22px;
+}
+
+.officer-section__text{
+    margin: 0;
+}
+
+/*ABOUT-REMMY*/
+.about-remmy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin-top: 200px;
+}
+
+.about-remmy__image{
+    position: relative;
+}
+
+.about-remmy__image::after{
+    content: url(/image/Rectanglebackground.png);
+    position: absolute;
+    z-index: 1;
+    left: -45px;
+    top: 480px;
+}
+
+.about-remmy__mini{
+    display: flex;
+    margin-top: 112px;
+}
+
+.about-remmy__minitext{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.about-remmy__minitext h3{
+    margin: 24px 0;
+    width: 410px;
+}
+
+.about-remmy__minitext::before{
+    content: url(/image/Frame.svg);
+    position: static;
+}
+
+/*skin-section*/
+.skin-section{
+    margin: 0 auto;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skin-section h2{
+    margin-bottom: 30px;
+}
+
+.skin-section__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.colors:nth-child(1){
+    background: rgba(127, 221, 240, 0.1);
+}
+
+.colors:nth-child(2){
+    background: rgba(95, 174, 236, 0.1);
+}
+
+.colors:nth-child(3){
+    background: rgba(155, 120, 253, 0.08);
+}
+
+.colors:nth-child(4){
+    background: rgba(239, 156, 208, 0.1);
+}
+
+.colors:nth-child(5){
+    background: rgba(246, 132, 94, 0.1);
+}
+
+.colors:nth-child(6){
+    background: rgba(249, 182, 94, 0.1);
+}
+
+.colors:nth-child(7){
+    background: rgba(255, 221, 87, 0.1);
+}
+
+.colors:nth-child(8){
+    background: rgba(171, 224, 80, 0.1);
+}
+
+.colors:nth-child(9){
+    background: rgba(123, 207, 166, 0.1);
+}
+
+.colors:nth-child(10){
+    background: #F7F8FC;
+    width: 535px;
+}
+
+.colors{
+    width: 158px;
+    height: 104px;
+    border-radius: 12px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 21px 0 13px 11px ;
+    cursor: pointer;
+}
+
+.colors p{
+    display: inline-block;
+    position: static;
+    left: 18px;
+    margin: 0;
+    margin-right: 300px;
+}
+
+.circle{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 34px;
+    border-radius: 50%;
+}
+
+.acne{
+    background: #7FDDF0;
+    box-shadow: 0px 12.5714px 24px rgba(127, 221, 240, 0.2);
+}
+
+.psoriasis{
+    background: #5FAEEC;
+    box-shadow: 0px 12.5714px 24px rgba(95, 174, 236, 0.2);
+}
+
+.eczema{
+    background: #9B78FD;
+    box-shadow: 0px 12.5714px 24px rgba(155, 120, 253, 0.2);
+}
+
+.dry{
+    background: #EF9CD0;
+    box-shadow: 0px 12.5714px 24px rgba(239, 156, 208, 0.2);
+    margin-bottom: 14px;
+}
+
+.rosacea{
+    background: #F6845E;
+    box-shadow: 0px 12.5714px 24px rgba(246, 132, 94, 0.2); 
+}
+
+.wrinkles{
+    background: #F9B65E;
+    box-shadow: 0px 12.5714px 24px rgba(249, 182, 94, 0.2);
+}
+
+.keratosis{
+    background: #FFDD57;
+    box-shadow: 0px 12.5714px 24px rgba(255, 221, 87, 0.2);
+}
+
+.stretch{
+    background: #ABE050;
+    box-shadow: 0px 12.5714px 24px rgba(171, 224, 80, 0.2);
+    margin-bottom: 14px;
+}
+
+.spider{
+    background: #7BCFA6;
+    box-shadow: 0px 12.5714px 24px rgba(123, 207, 166, 0.2);
+    margin-bottom: 14px;
+}
+
+.more{
+    background: #B5B8C1;
+    box-shadow: 0px 12.5714px 24px rgba(181, 184, 193, 0.2);
+}
+
+/*main-footer*/
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 83px 0;
+    border-top: 1px solid rgba(7, 19, 48, 0.05);
+}
+
+.main-footer__text{
+    margin: 0;
+}
+
+.main-footer__nav nav ul{
+    margin: 0;
+    margin-left: 540px;
+}
